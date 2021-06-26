@@ -1,0 +1,29 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5CB6330F-120D-4760-9C14-933830FE588A}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="src/samuraiApp.Data/SamuraiContext.cs" Line="21" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="samuraiApp" expanded="True" selected="True">
+            <Node name="src" expanded="True">
+              <Node name="samuraiApp.Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+              </Node>
+              <Node name="samuraiApp.Domain" expanded="True" />
+              <Node name="samuraiApp.UI" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.samuraiApp.UI PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

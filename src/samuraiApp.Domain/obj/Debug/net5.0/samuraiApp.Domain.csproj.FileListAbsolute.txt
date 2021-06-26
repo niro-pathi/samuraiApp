@@ -1,0 +1,12 @@
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.csproj.AssemblyReference.cache
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.AssemblyInfoInputs.cache
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.AssemblyInfo.cs
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.csproj.CoreCompileInputs.cache
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/bin/Debug/net5.0/samuraiApp.Domain.deps.json
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/bin/Debug/net5.0/samuraiApp.Domain.dll
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/bin/Debug/net5.0/ref/samuraiApp.Domain.dll
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/bin/Debug/net5.0/samuraiApp.Domain.pdb
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.dll
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/ref/samuraiApp.Domain.dll
+/Users/np351100/apps/DotNetProjects/samuraiApp/src/samuraiApp.Domain/obj/Debug/net5.0/samuraiApp.Domain.pdb
