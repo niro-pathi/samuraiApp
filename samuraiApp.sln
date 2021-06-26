@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62EFAF03-C156-4DD8-8481-14D2D184424D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samuraiApp.UI", "src\samuraiApp.UI\samuraiApp.UI.csproj", "{5CB6330F-120D-4760-9C14-933830FE588A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samuraiApp.Data", "src\samuraiApp.Data\samuraiApp.Data.csproj", "{F4016B86-802B-4342-8C5E-59F2CCEC3667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samuraiApp.Domain", "src\samuraiApp.Domain\samuraiApp.Domain.csproj", "{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +22,48 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|x64.Build.0 = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|x64.ActiveCfg = Release|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|x64.Build.0 = Release|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CB6330F-120D-4760-9C14-933830FE588A}.Release|x86.Build.0 = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|x64.Build.0 = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667}.Release|x86.Build.0 = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|x64.Build.0 = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CB6330F-120D-4760-9C14-933830FE588A} = {62EFAF03-C156-4DD8-8481-14D2D184424D}
+		{F4016B86-802B-4342-8C5E-59F2CCEC3667} = {62EFAF03-C156-4DD8-8481-14D2D184424D}
+		{EEBBB6A4-2155-4CC0-A516-DB36F0EE34B7} = {62EFAF03-C156-4DD8-8481-14D2D184424D}
 	EndGlobalSection
 EndGlobal
