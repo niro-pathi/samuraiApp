@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\samuraiApp.Data\samuraiApp.Data.csproj" />
+    <ProjectReference Include="..\samuraiApp.Domain\samuraiApp.Domain.csproj" />
+  </ItemGroup>
 </Project>
