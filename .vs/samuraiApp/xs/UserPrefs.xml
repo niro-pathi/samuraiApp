@@ -1,7 +1,9 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5CB6330F-120D-4760-9C14-933830FE588A}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="src/samuraiApp.Data/SamuraiContext.cs" Line="21" Column="2" />
+      <File FileName="src/samuraiApp.Data/SamuraiContext.cs" Line="32" Column="2" />
+      <File FileName="src/samuraiApp.Domain/Horse.cs" Line="11" Column="1" />
+      <File FileName="src/samuraiApp.Domain/Samurai.cs" Line="12" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
