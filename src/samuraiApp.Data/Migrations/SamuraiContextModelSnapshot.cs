@@ -31,7 +31,7 @@ namespace samuraiApp.Data.Migrations
 
                     b.HasKey("BattleId");
 
-                    b.ToTable("Battle");
+                    b.ToTable("Battles");
                 });
 
             modelBuilder.Entity("samuraiApp.Domain.BattleSamurai", b =>
@@ -92,7 +92,7 @@ namespace samuraiApp.Data.Migrations
 
                     b.HasIndex("SamuraiId");
 
-                    b.ToTable("Quote");
+                    b.ToTable("Quotes");
                 });
 
             modelBuilder.Entity("samuraiApp.Domain.Samurai", b =>

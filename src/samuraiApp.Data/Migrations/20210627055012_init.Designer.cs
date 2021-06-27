@@ -10,8 +10,8 @@ using samuraiApp.Data;
 namespace samuraiApp.Data.Migrations
 {
     [DbContext(typeof(SamuraiContext))]
-    [Migration("20210627000454_horseone2one")]
-    partial class horseone2one
+    [Migration("20210627055012_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,7 +33,7 @@ namespace samuraiApp.Data.Migrations
 
                     b.HasKey("BattleId");
 
-                    b.ToTable("Battle");
+                    b.ToTable("Battles");
                 });
 
             modelBuilder.Entity("samuraiApp.Domain.BattleSamurai", b =>
@@ -94,7 +94,7 @@ namespace samuraiApp.Data.Migrations
 
                     b.HasIndex("SamuraiId");
 
-                    b.ToTable("Quote");
+                    b.ToTable("Quotes");
                 });
 
             modelBuilder.Entity("samuraiApp.Domain.Samurai", b =>

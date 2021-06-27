@@ -15,7 +15,7 @@ namespace samuraiApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "server=nppoc-dev-as-sql.database.windows.net;database=SamuraiAppData;trusted_connection=true;integrated security=false;User ID={user};Password={password};")
+                "server=nppoc-dev-as-sql.database.windows.net;database=SamuraiAppData;trusted_connection=true;integrated security=false;User ID=npadmin;Password=N1rosh@na;")
                 .LogTo(Console.Write,new[] { DbLoggerCategory.Database.Command.Name},
                         LogLevel.Information)
                 .EnableSensitiveDataLogging();
